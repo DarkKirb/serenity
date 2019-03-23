@@ -133,7 +133,6 @@ native_tls = ["reqwest/default-tls", "tungstenite/tls"]
 standard_framework = ["framework", "uwl"]
 utils = ["base64"]
 voice = ["byteorder", "gateway", "opus", "rand", "sodiumoxide"]
-raw_event = []
 
 [package.metadata.docs.rs]
 all-features = true
