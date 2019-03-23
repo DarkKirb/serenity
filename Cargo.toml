@@ -38,7 +38,7 @@ version = "^1.0"
 [dependencies.reqwest]
 default-features = false
 optional = true
-version = "0.9"
+version = "^0.9"
 
 [dependencies.lazy_static]
 optional = true
@@ -54,7 +54,7 @@ version = "^0.4"
 
 [dependencies.rustls]
 optional = true
-version = "0.14.0"
+version = "0.15.0"
 
 [dependencies.sodiumoxide]
 default-features = false
@@ -85,11 +85,11 @@ version = "^0.2"
 
 [dependencies.webpki]
 optional = true
-version = "0.18.1"
+version = "0.19.1"
 
 [dependencies.webpki-roots]
 optional = true
-version = "0.15.0"
+version = "0.16.0"
 
 [dev-dependencies.matches]
 version = "0.1.6"
